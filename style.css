@@ -2,7 +2,8 @@
 @font-face {
     font-family: 'Aptos';
     src: url('https://raw.githubusercontent.com/MichaelHulll/BIGSignature/main/fonts/Aptos-Regular.woff2') format('woff2'),
-         url('https://raw.githubusercontent.com/MichaelHulll/BIGSignature/main/fonts/Aptos-Regular.woff') format('woff');
+         url('https://raw.githubusercontent.com/MichaelHulll/BIGSignature/main/fonts/Aptos-Regular.woff') format('woff'),
+         url('https://raw.githubusercontent.com/MichaelHulll/BIGSignature/main/fonts/Aptos-Regular.ttf') format('truetype');
     font-weight: normal; /* Regular weight */
     font-style: normal;
 }
@@ -10,7 +11,8 @@
 @font-face {
     font-family: 'Aptos';
     src: url('https://raw.githubusercontent.com/MichaelHulll/BIGSignature/main/fonts/Aptos-Bold.woff2') format('woff2'),
-         url('https://raw.githubusercontent.com/MichaelHulll/BIGSignature/main/fonts/Aptos-Bold.woff') format('woff');
+         url('https://raw.githubusercontent.com/MichaelHulll/BIGSignature/main/fonts/Aptos-Bold.woff') format('woff'),
+         url('https://raw.githubusercontent.com/MichaelHulll/BIGSignature/main/fonts/Aptos-Bold.ttf') format('truetype');
     font-weight: bold; /* Bold weight */
     font-style: normal;
 }
@@ -18,6 +20,7 @@
 /* General styles for the body */
 body {
     font-family: Aptos, Helvetica, Arial, sans-serif;
+    font-weight: normal; /* Default font weight */
 }
 
 /* Style for the form container */
@@ -38,6 +41,7 @@ label {
     color: #404040;
     margin-right: 10px;
     font-family: Aptos, Arial, sans-serif;
+    font-weight: normal; /* Ensure label text is not bold */
 }
 
 input, select {
@@ -47,6 +51,7 @@ input, select {
     border: 1px solid #ccc;
     width: 250px;
     font-family: Aptos, Arial, sans-serif;
+    font-weight: normal; /* Ensure form inputs are not bold */
 }
 
 /* Style for the preview section */
